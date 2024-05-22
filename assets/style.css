@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; 
+}
+
+body {
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/838/113/174/anime-original-gym-hd-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+}
+
+.container {
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90% !important;
+}
+
+.login, .registration {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 500px;
+    padding: 30px;
+}
+
+.title-container, .login-register-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.title-container h1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px rgb(20, 20, 20);
+}
+
+
+.title-container p {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+.login-registration-button {
+    font-size: 15px;
+    color: rgb(122, 122, 255);
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: -10px;
+}
+
+.journal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    border: 2px solid;
+    color: rgb(255, 255, 255) !important;
+    margin: auto;
+    width: 800px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.search-journal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-journal form {
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.journal-container table {
+    color: rgb(255, 255, 255) !important;
+
+}
+
+.landing-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.heading-container {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 2px solid;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.heading-container > h2 {
+    padding: 40px;
+    font-size: 70px;
+    text-align: center;
+}
+
+.heading-container > p {
+    font-size: 30px;
+    text-align: center;
+}
+
+.select-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+    margin: 40px;
+}
+
+.write-journal, .read-journal {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.write-journal:hover, .read-journal:hover {
+    background-color: rgba(114, 114, 114, 0.5);
+
+}
+
+.select-option img {
+    width: 300px;
+    margin: 20px;
+    height: 300px;
+}
+
+.select-option p {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.form-container {
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 2px solid;
+    padding: 40px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px; 
+    width: 65%;     
+    max-height: 800px !important;
+    overflow-y: auto;
+}

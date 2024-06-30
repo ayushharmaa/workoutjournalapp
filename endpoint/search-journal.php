@@ -1,3 +1,4 @@
+#search_journalcode
 <?php
 session_start();
 include('../conn/conn.php');
